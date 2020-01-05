@@ -1,2 +1,2 @@
-# I3D_CTC
-I3D with Attention Mechanism
+# I3D_TCC_Bilinear
+I3D with Attention Mechanism and Bilinear Pooling module
