@@ -31,15 +31,15 @@ $ git clone https://github.com/caijh33/I3D_TCC_Bilinear
 ### 3. test on UCF101 on RGB data and flow data
 After you have trained the model, you can run the test procedure. you can run testing you trained models on RGB data and flow data using below commands:
 
-```python test_i3d.py --train_list data/ucf101_rgb_train_split_1.txt \
+python test_i3d.py --train_list data/ucf101_rgb_train_split_1.txt \
  --val_list data/ucf101_rgb_val_split_1.txt --data ucf101 --model rgb\
 --weights checkpoints/hmdb51/73.202_rgb_model_best.pth.tar \
---save_scores test_output/ --test_clips 10\ ```
+--save_scores test_output/ --test_clips 10\ 
 
-```python test_i3d.py --train_list data/ucf101_flow_train_split_1.txt \
+python test_i3d.py --train_list data/ucf101_flow_train_split_1.txt \
  --val_list data/ucf101_flow_val_split_1.txt --data ucf101 --model flow\
 --weights checkpoints/hmdb51/73.202_flow_model_best.pth.tar \
---save_scores test_output/ --test_clips 10\ ```
+--save_scores test_output/ --test_clips 10\
 
 Other models use the same training and testing methods.
 
