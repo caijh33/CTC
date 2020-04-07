@@ -21,9 +21,9 @@ Runing the code
 $ git clone https://github.com/caijh33/I3D_TCC_Bilinear
 
 ### 2. train on UCF101 on RGB data and flow data
-#finetune on split1 of RGB data of UCF101
+#finetune on split1 of RGB data of UCF101\<br>
 ```python I3D_TCC_Bilinear/scripts/ucf101/run_ucf101_i3d_rgb.sh```
-#finetune on split1 of flow data of UCF101
+#finetune on split1 of flow data of UCF101\<br>
 ```python I3D_TCC_Bilinear/scripts/ucf101/run_ucf101_i3d_flow.sh```
 
 
